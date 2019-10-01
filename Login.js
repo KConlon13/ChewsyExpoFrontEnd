@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, SecureTextEntry, Linking} from 'react-native';
+import { Icon } from 'react-native-elements'
 
  
 class Login extends Component {
@@ -12,26 +13,26 @@ class Login extends Component {
         return(
             <View style={styles.container}>
                 <Text style={styles.centerTitle}>Welcome Back</Text>
+
                 <TextInput style={styles.inputBox}
                 onChangeText={(username) => this.setState({username})}
                 placeholder="Username"
-                placeholderTextColor = "#002f6c"
-                // selectionColor="#fff"
+                placeholderTextColor = "grey"
                 />
-                
+
                 <TextInput style={styles.inputBox}
                 onChangeText={(password) => this.setState({password})} 
                 placeholder="Password"
                 secureTextEntry={true}
                 type="password"
-                placeholderTextColor = "#002f6c"
+                placeholderTextColor = "grey"
                 />
  
                 <TouchableOpacity style={styles.button}> 
                     <Text onPress={()=>this.props.clickHandler(this.state)} style={styles.buttonText} >LOG IN</Text>
                 </TouchableOpacity>
 
-                <Text>Don't Have An Account? <Text style={{color: 'blue'}}
+                <Text>Don't Have An Account? <Text style={{color: '#FF6700'}}
       onPress={() => this.props.loginHandler()}>Sign Up</Text></Text>
             </View>
             
@@ -51,7 +52,7 @@ const styles = StyleSheet.create({
         borderRadius: 25,
         paddingHorizontal: 16,
         fontSize: 16,
-        color: 'black',
+        color: '#002f6c',
         marginVertical: 11,
         borderBottomColor: "#FF6700",
         borderBottomWidth: 0.2

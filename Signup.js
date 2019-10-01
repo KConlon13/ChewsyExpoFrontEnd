@@ -58,7 +58,7 @@ class Signup extends Component {
                 <TextInput style={styles.inputBox}
                 onChangeText={(username) => this.setState({username})}
                 placeholder="Username"
-                placeholderTextColor = "#002f6c"
+                placeholderTextColor = "grey"
                 // selectionColor="#fff"
                 />
                 
@@ -68,7 +68,7 @@ class Signup extends Component {
                 placeholder="Password"
                 secureTextEntry={true}
                 type="password"
-                placeholderTextColor = "#002f6c"
+                placeholderTextColor = "grey"
                 />
 
                 <TextInput style={styles.inputBox}
@@ -76,14 +76,14 @@ class Signup extends Component {
                 placeholder="Re-enter Password"
                 secureTextEntry={true}
                 type="password"
-                placeholderTextColor = "#002f6c"
+                placeholderTextColor = "grey"
                 />
  
                 <TouchableOpacity style={styles.button}> 
                     <Text onPress={()=>this.signupHandler(this.state)} style={styles.buttonText} >SIGN UP</Text>
                 </TouchableOpacity>
 
-                <Text>Have An Account Already? <Text style={{color: 'blue'}}
+                <Text>Have An Account Already? <Text style={{color: '#FF6700'}}
                 onPress={() => this.props.loginHandler()}>Log In</Text></Text>
             </View>
         )
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
         borderRadius: 25,
         paddingHorizontal: 16,
         fontSize: 16,
-        color: 'black',
+        color: '#002f6c',
         marginVertical: 11,
         borderBottomColor: "#FF6700",
         borderBottomWidth: 0.2
@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
         marginTop: 20,
         marginBottom: 8,
         fontWeight: 1,
-        marginBottom: 15
+        marginBottom: 10
       },
 });
 

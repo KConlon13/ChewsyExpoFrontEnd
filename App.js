@@ -4,11 +4,8 @@ import { SearchBar, Header, Button, Icon } from 'react-native-elements'
 import chewsyLogo from "./assets/chewsyLogo.png"
 import Login from "./Login"
 import Signup from "./Signup"
-// import { createAppContainer } from 'react-navigation';
-// import { createStackNavigator } from 'react-navigation-stack';
 import Favorites from "./Favorites"
 import RestaurantsContainer from './RestaurantsContainer';
-import Splash from './Splash'
 
 
 class App extends React.Component {
@@ -279,29 +276,6 @@ render(){
   );
 }
 }
-
-
-// const AppNavigator = createStackNavigator({
-//   Home: {
-//     screen: App,
-//   },
-//   Login: {
-//     screen: Login,
-//   },
-//   Signup: {
-//     screen: Signup,
-//   },
-//   Favorites: {
-//     screen: Favorites,
-//   },
-// }, {
-// initialRouteName: 'Home'
-// },
-// );
-
-
-
-
 
 const styles = StyleSheet.create({
   centerTitle: {
