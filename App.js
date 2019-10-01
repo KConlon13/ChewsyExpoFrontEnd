@@ -8,6 +8,7 @@ import Signup from "./Signup"
 // import { createStackNavigator } from 'react-navigation-stack';
 import Favorites from "./Favorites"
 import RestaurantsContainer from './RestaurantsContainer';
+import Splash from './Splash'
 
 
 class App extends React.Component {

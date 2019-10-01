@@ -16,7 +16,8 @@ class Login extends Component {
                 onChangeText={(username) => this.setState({username})}
                 placeholder="Username"
                 placeholderTextColor = "#002f6c"
-                selectionColor="#fff"/>
+                // selectionColor="#fff"
+                />
                 
                 <TextInput style={styles.inputBox}
                 onChangeText={(password) => this.setState({password})} 
@@ -27,7 +28,7 @@ class Login extends Component {
                 />
  
                 <TouchableOpacity style={styles.button}> 
-                    <Text onPress={()=>this.props.clickHandler(this.state)} style={styles.buttonText} >Log In</Text>
+                    <Text onPress={()=>this.props.clickHandler(this.state)} style={styles.buttonText} >LOG IN</Text>
                 </TouchableOpacity>
 
                 <Text>Don't Have An Account? <Text style={{color: 'blue'}}
@@ -42,36 +43,44 @@ const styles = StyleSheet.create({
     container: {
         justifyContent: 'center',
         alignItems: 'center',
+        marginTop: 10
     },
     inputBox: {
         width: 290,
-        backgroundColor: '#eeeeee', 
+        backgroundColor: 'white', 
         borderRadius: 25,
         paddingHorizontal: 16,
         fontSize: 16,
-        color: '#002f6c',
-        marginVertical: 10
+        color: 'black',
+        marginVertical: 11,
+        borderBottomColor: "#FF6700",
+        borderBottomWidth: 0.2
     },
     button: {
         width: 300,
         backgroundColor: '#FF6700',
-        borderRadius: 25,
+        borderWidth: 0.2,
+        borderColor: "#FF6700",
+        borderRadius: 7,
         marginVertical: 10,
-        paddingVertical: 12
+        paddingVertical: 12,
+        marginTop: 20
     },
     buttonText: {
         fontSize: 16,
         fontWeight: '500',
-        color: '#ffffff',
+        color: 'white',
         textAlign: 'center'
     },
     centerTitle: {
-        color: "black",
+        color: "#FF6700",
         fontWeight: "bold",
         fontSize: 25,
         textAlign: "center",
         marginTop: 20,
-        marginBottom: 10
+        marginBottom: 8,
+        fontWeight: 1,
+        marginBottom: 12
         // fontFamily: "Pacifico-Regular"
       },
 });

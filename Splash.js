@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, View, Image } from 'react-native'
 import chewsyLogo from "./assets/chewsyLogo.png"
-import App from "./App"
+// import App from "./App"
 
 class Splash extends React.Component {
     render(){
