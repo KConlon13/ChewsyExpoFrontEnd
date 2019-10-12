@@ -14,7 +14,6 @@ class RestaurantsContainer extends React.Component {
         searchTerm: ""
      }
 
-
     changeHandler = (searchterm) => {
         this.setState({searchTerm: searchterm})
         console.log("SEARCH TERM :", this.state.searchTerm)
