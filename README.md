@@ -1,4 +1,4 @@
-CHEWSY (iOS App)
+ # CHEWSY (iOS App)
 An allergy-friendly restaurant locator for NYC
 
 MOTIVATION
