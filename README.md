@@ -43,6 +43,15 @@ SCREENSHOTS
 
 <img width="301" alt="Screen Shot 2019-10-18 at 11 37 55 AM" src="https://user-images.githubusercontent.com/47828048/67109550-c09aad80-f19e-11e9-881b-b25890984657.png">
 
+CODE EXAMPLES
+
+<img width="1440" alt="Screen Shot 2019-10-18 at 12 41 17 PM" src="https://user-images.githubusercontent.com/47828048/67112331-f2167780-f1a4-11e9-8fde-23f271c7ef2a.png">
+
+<img width="1440" alt="Screen Shot 2019-10-18 at 12 41 55 PM" src="https://user-images.githubusercontent.com/47828048/67112336-f5116800-f1a4-11e9-9d9e-ebc6726d326d.png">
+
+<img width="1440" alt="Screen Shot 2019-10-18 at 12 42 58 PM" src="https://user-images.githubusercontent.com/47828048/67112339-f6db2b80-f1a4-11e9-9778-c2c42a580c38.png">
+
+<img width="1440" alt="Screen Shot 2019-10-18 at 12 43 33 PM" src="https://user-images.githubusercontent.com/47828048/67112344-f93d8580-f1a4-11e9-8509-f4148c474588.png">
 
 INSTALLATION
 
