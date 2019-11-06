@@ -4,8 +4,6 @@ import { Card, ListItem, Button, Icon } from 'react-native-elements'
 import RestaurantSpecs from "./RestaurantSpecs"
 
 class RestaurantsCard extends React.Component {
- // Wanted the card to be clickable all over, however, only the description TEXT tag is clickable
- // Could solve this via a designated button? 
 
     render(){
         return(
