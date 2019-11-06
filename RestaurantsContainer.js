@@ -56,11 +56,9 @@ class RestaurantsContainer extends React.Component {
                 <ScrollView contentContainerstyle={styles.contentContainer} 
                 ref={ref => this.scrollView = ref}
                     onContentSizeChange={(contentWidth, contentHeight)=>{  
-                // this.scrollView.scrollTo({x: 0, y: 0, animated: true})
-                // this.scrollView.scrollToEnd({animated: true});
                 }}>
-                    {/* <Text style={styles.title} h5>All Restaurants</Text> */}
-                    {restaurantsComponent}
+
+                {restaurantsComponent}
                 </ScrollView>
             </View>
         )

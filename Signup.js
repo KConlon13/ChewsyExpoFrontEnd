@@ -59,7 +59,6 @@ class Signup extends Component {
                 onChangeText={(username) => this.setState({username})}
                 placeholder="Username"
                 placeholderTextColor = "grey"
-                // selectionColor="#fff"
                 />
                 
                 <TextInput style={styles.inputBox}
@@ -137,8 +136,5 @@ const styles = StyleSheet.create({
         marginBottom: 10
       },
 });
-
-
-
 
 export default Signup;

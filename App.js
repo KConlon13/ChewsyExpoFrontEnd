@@ -110,7 +110,6 @@ class App extends React.Component {
           })
           console.log(data.user.restaurants)
 
-          // {<Favorites user={data.user}/>}
         }
       })
   }
@@ -284,9 +283,6 @@ const styles = StyleSheet.create({
     fontSize: 30,
     textAlign: "center",
   },
-  // centerForm: {
-  //   marginTop: 80
-  // },
   page: {
     flex: 1,
     backgroundColor: "white"
@@ -308,8 +304,5 @@ const styles = StyleSheet.create({
     marginLeft: 15,
   }
 })
-
-
-
 
 export default App;

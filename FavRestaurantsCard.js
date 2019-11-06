@@ -13,8 +13,7 @@ class RestaurantsCard extends React.Component {
             cardClicked: !this.state.cardClicked
         })
     }
- // Wanted the card to be clickable all over, however, only the description TEXT tag is clickable
- // Could solve this via a designated button? 
+
     render(){
         return (
             <View onPress={() => this.restHandler(this.props.obj)}>

@@ -82,7 +82,6 @@ const styles = StyleSheet.create({
         marginBottom: 8,
         fontWeight: 1,
         marginBottom: 12
-        // fontFamily: "Pacifico-Regular"
       },
 });
 
